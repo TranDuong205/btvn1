@@ -1,0 +1,35 @@
+# exercise_nextjs
+
+## Mô tả về các thư mục và file trong dự án
+
+### 📁 `pages/`
+- **`index.tsx`**: Đây là file chứa trang chủ của ứng dụng. Mọi logic và giao diện của trang chủ được xây dựng ở đây.
+- **`_app.tsx`**: Đây là file quản lý các thành phần toàn cục của ứng dụng. Bất kỳ thành phần nào được đặt ở đây sẽ xuất hiện trên tất cả các trang của ứng dụng.
+- **`_document.tsx`**: File này tùy chỉnh cấu trúc HTML cơ bản của ứng dụng. Nếu bạn cần thêm các thẻ `<html>`, `<head>`, hoặc `<body>`, bạn có thể làm điều đó tại đây.
+
+### 📁 `public/`
+- Thư mục này chứa các tài nguyên tĩnh như hình ảnh, favicon, v.v. Những file trong thư mục này có thể được truy cập trực tiếp từ trình duyệt bằng cách dẫn đường dẫn bắt đầu từ `/`.
+
+### 📁 `styles/`
+- **`globals.css`**: Đây là file chứa các style toàn cục cho ứng dụng của bạn. Bất kỳ style nào được định nghĩa ở đây sẽ ảnh hưởng đến toàn bộ ứng dụng.
+
+### 📁 `node_modules/`
+- Thư mục này chứa tất cả các gói npm (thư viện) mà dự án của bạn sử dụng. Bạn không cần chỉnh sửa thư mục này trực tiếp.
+
+### 📄 `package.json`
+- File này chứa thông tin về dự án, các dependencies (thư viện) cần thiết, và các script hữu ích để quản lý dự án.
+
+### 📄 `tsconfig.json`
+- File này chứa cấu hình cho TypeScript. Bạn có thể chỉnh sửa file này nếu muốn thay đổi cách TypeScript hoạt động trong dự án của bạn.
+
+### 📄 `next.config.js`
+- File này chứa cấu hình cho Next.js. Bạn có thể thêm các thiết lập tùy chỉnh nếu cần cấu hình thêm cho ứng dụng của mình.
+
+### 📄 `README.md`
+- File này chứa thông tin giới thiệu về dự án. Bạn có thể mô tả về dự án, cách cài đặt và chạy dự án, và bất kỳ thông tin quan trọng nào khác mà người dùng cần biết.
+
+## Hướng dẫn chạy dự án
+
+1. Cài đặt các dependencies:
+   ```bash
+   npm install
